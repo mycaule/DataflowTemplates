@@ -1,12 +1,19 @@
 plugins {
     id 'java'
     id 'maven-publish'
+    id 'com.google.protobuf' version '0.8.13'
 }
 
 repositories {
     mavenCentral()
     maven {
         url = uri('https://repo.maven.apache.org/maven2/')
+    }
+}
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.0.0'
     }
 }
 

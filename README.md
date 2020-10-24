@@ -6,6 +6,8 @@ with [Apache Beam](https://beam.apache.org/) pipelines.
 
 My fork uses `gradle`.
 
+- https://github.com/google/protobuf-gradle-plugin
+
 [![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https%3A%2F%2Fgithub.com%2Fmycaule%2FDataflowTemplates.git)
 
 [Templates docs](https://cloud.google.com/dataflow/docs/templates/provided-templates).
